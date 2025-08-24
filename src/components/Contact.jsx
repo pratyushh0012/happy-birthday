@@ -11,7 +11,8 @@ export const Contact = () => {
         {/* Section header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Let's Connect
+          <span className="text-primary">Let's</span>
+            <span className="text-gradient ml-2">Connect</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             I'm always open to discussing new opportunities, collaborations, and interesting projects. 
@@ -78,15 +79,6 @@ export const Contact = () => {
           </div>
         </div>
 
-        {/* Additional contact information */}
-        <div className="mt-16 text-center">
-          <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-muted/50 border border-border">
-            <Mail className="w-4 h-4 text-muted-foreground" />
-            <span className="text-sm text-muted-foreground">
-              Available for collaborations and opportunities
-            </span>
-          </div>
-        </div>
       </div>
     </section>
   );

@@ -4,7 +4,9 @@ import { StarBackground } from '../components/StarBackground';
 import { Navbar } from '../components/Navbar';
 import { HeroSection } from '../components/HeroSection';
 import { AboutSection } from '../components/AboutSection';
+import { Experience } from '../components/Experience';
 import { Contact } from '../components/Contact';
+import { Footer } from '../components/Footer';
 
 export const Home = () => {
   return (
@@ -28,11 +30,15 @@ export const Home = () => {
         {/* About Section - information about you */}
         <AboutSection />
         
+        {/* Experience Section - information about your experience */}
+        <Experience />
+        
         {/* Contact Section - ways to get in touch */}
         <Contact />
       </main>
 
       {/* Footer - could add footer content here later */}
+      <Footer />
     </div>
   );
 };

@@ -29,7 +29,7 @@ export const AboutSection = () => {
               onClick={handleTab1Click}
               className={`px-8 py-3 rounded-l-full font-semibold text-sm md:text-base transition-all duration-300 ${
                 activeTab === "tab1"
-                  ? "bg-gradient-to-r from-purple-600 to-pink-500 text-white shadow-lg"
+                  ? "bg-primary text-primary-foreground shadow-lg"
                   : "text-gray-300 hover:text-white"
               }`}
             >
@@ -40,7 +40,7 @@ export const AboutSection = () => {
               onClick={handleTab2Click}
               className={`px-8 py-3 rounded-r-full font-semibold text-sm md:text-base transition-all duration-300 ${
                 activeTab === "tab2"
-                  ? "bg-gradient-to-r from-purple-600 to-pink-500 text-white shadow-lg"
+                  ? "bg-primary text-primary-foreground shadow-lg"
                   : "text-gray-300 hover:text-white"
               }`}
             >
