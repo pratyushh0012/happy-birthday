@@ -26,7 +26,7 @@ export const Contact = () => {
           {/* Email Card */}
           <div className="group">
             <a 
-              href="mailto:ira.sharma@example.com" 
+              href="mailto:irashreshma@gmail.com" 
               className="flex flex-col items-center p-6 rounded-lg border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:scale-105 bg-card"
             >
               {/* Email icon */}
